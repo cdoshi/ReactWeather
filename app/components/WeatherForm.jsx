@@ -15,7 +15,7 @@ var React = require('react'),
         return (
           <div>
             <form onSubmit={this.onFormSubmit}>
-              <input type="text" name="place" ref="location" />
+              <input type="search" name="place" ref="location" placeholder="Search weather by city" />
               <button type="submit" className="hollow button expanded"> Get Weather </button>
             </form>
           </div>
